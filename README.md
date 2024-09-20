@@ -17,5 +17,11 @@ Este projeto realiza análises de dados de incidência de doenças como dengue, 
 
 Para rodar o servidor Flask, execute o seguinte comando:
 
-```bash
-python app.py
+
+Após isso, abra seu navegador e acesse http://127.0.0.1:5000 para visualizar a aplicação.
+
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema (issue) ou um pull request.
+
+Licença
+Este projeto está licenciado sob a Licença MIT.
