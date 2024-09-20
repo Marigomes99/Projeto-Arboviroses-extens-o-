@@ -1,0 +1,15 @@
+doença,periodo,grupo_risco,fatores_de_risco
+dengue,2024-01-01 a 2024-08-24,crianças menores de 2 anos,sistema imunológico enfraquecido
+dengue,2024-01-01 a 2024-08-24,idosos,idade avançada
+dengue,2024-01-01 a 2024-08-24,gestantes,complicações graves
+dengue,2024-01-01 a 2024-08-24,doentes crônicos,risco de forma grave
+dengue,2024-01-01 a 2024-08-24,imunocomprometidos,sistema imunológico enfraquecido
+chikungunya,2024-01-01 a 2024-08-24,idosos,idade avançada
+chikungunya,2024-01-01 a 2024-08-24,gestantes,complicações graves
+chikungunya,2024-01-01 a 2024-08-24,doentes crônicos,risco de forma grave
+chikungunya,2024-01-01 a 2024-08-24,imunocomprometidos,sistema imunológico enfraquecido
+chikungunya,2024-01-01 a 2024-08-24,crianças menores de 2 anos,sistema imunológico enfraquecido
+zika,2024-01-01 a 2024-08-24,gestantes,complicações graves e risco de aborto
+zika,2024-01-01 a 2024-08-24,doentes crônicos,risco de forma grave
+zika,2024-01-01 a 2024-08-24,imunocomprometidos,sistema imunológico enfraquecido
+zika,2024-01-01 a 2024-08-24,idosos,idade avançada

@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% block title %}Página Inicial{% endblock %}
+
+{% block header %}
+    <h1>Bem-vindo ao Sistema de Monitoramento de Doenças</h1>
+{% endblock %}
+
+{% block content %}
+    <h2>Resumo dos Casos Suspeitos</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Doença</th>
+                <th>Período</th>
+                <th>Ano</th>
+                <th>Casos Suspeitos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dengue</td>
+                <td>2024-01-01 a 2024-08-24</td>
+                <td>2024</td>
+                <td>{{ casos_suspeitos_dengue }}</td>
+            </tr>
+            <tr>
+                <td>Chikungunya</td>
+                <td>2024-01-01 a 2024-08-24</td>
+                <td>2024</td>
+                <td>{{ casos_suspeitos_chikungunya }}</td>
+            </tr>
+            <tr>
+                <td>Zika</td>
+                <td>2024-01-01 a 2024-08-24</td>
+                <td>2024</td>
+                <td>{{ casos_suspeitos_zika }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Incidências e Casos Confirmados</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Doença</th>
+                <th>Incidências</th>
+                <th>Casos Confirmados</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dengue</td>
+                <td>{{ incidencia_dengue }}</td>
+                <td>{{ casos_confirmados_dengue }}</td>
+            </tr>
+            <tr>
+                <td>Chikungunya</td>
+                <td>{{ incidencia_chikungunya }}</td>
+                <td>{{ casos_confirmados_chikungunya }}</td>
+            </tr>
+            <tr>
+                <td>Zika</td>
+                <td>{{ incidencia_zika }}</td>
+                <td>{{ casos_confirmados_zika }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Grupos de Risco</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Doença</th>
+                <th>Grupo de Risco</th>
+                <th>Fatores de Risco</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dengue</td>
+                <td>Crianças menores de 2 anos</td>
+                <td>Sistema imunológico enfraquecido</td>
+            </tr>
+            <tr>
+                <td>Dengue</td>
+                <td>Idosos</td>
+                <td>Idade avançada</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Casos de Mortalidade</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Doença</th>
+                <th>Casos de Mortalidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dengue</td>
+                <td>{{ mortalidade_dengue }}</td>
+            </tr>
+            <tr>
+                <td>Chikungunya</td>
+                <td>{{ mortalidade_chikungunya }}</td>
+            </tr>
+            <tr>
+                <td>Zika</td>
+                <td>{{ mortalidade_zika }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
